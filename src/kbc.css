@@ -173,3 +173,38 @@ position: relative;
                 radial-gradient(ellipse farthest-corner at left top, #FDB931 0%, #FFFFAC 8%, #D1B464 25%, #5d4a1f 62.5%, #5d4a1f 100%);
 
 }
+@media(max-width:600px){
+  .mainbox
+{
+    height: auto;
+    
+}
+.questionBox {
+    position: static;
+    padding-top: 300px;
+}
+.questiontitle {
+    font-size: 12px;
+    line-height: 20px;
+}
+.timer {
+    width: 80px;
+    height: 80px;
+    font-size: 20px;
+    line-height: 50px;
+        top: -52px;
+}
+.answerbox {
+    font-size: 14px;
+    padding: 10px 30px;
+    background: linear-gradient(to bottom, #002b65, #020230);
+    border-radius: 50px;
+    border: 2px solid #9f7928;
+    line-height: 26px;
+    font-weight: 400;
+    cursor: pointer;
+    text-align: center;
+    box-shadow: 1px 4px 46px -1px rgb(0 0 0 / 53%) inset;
+    margin-bottom: 10px;
+}
+}
