@@ -25,8 +25,8 @@ const SingleQueation = ({
 
     setQuestion(data[questionNumber - 1]);
   }, [data, questionNumber]);
-  console.log(question, "SingleQuestion");
-  console.log(question, "SingleQuestion");
+  // console.log(question, "SingleQuestion");
+  // console.log(question, "SingleQuestion");
 
   //this delay function is used to answer button animation and 3 seconds
   const delay = (duration, callback) => {

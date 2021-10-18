@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React  from "react";
  export const moneylist = [
    { id: 1, Amout: 1000 },
    { id: 2, Amout: 2000 },
